@@ -1,0 +1,68 @@
+body {
+  background-color: darkred;
+}
+.contactContainer {
+  display: flex;
+  height: 150px;
+}
+.name {
+  color: white;
+  text-align: left;
+  width: 352%;
+  height: 100%;
+  margin-left: 10px;
+  font-size: 40px;
+}
+.number {
+  position: absolute;
+  color: white;
+  margin-left: 10px;
+  margin-top: -96px;
+  font-size: 18px;
+}
+.image {
+  width: 97px;
+  height: 90%;
+  margin-left: 600px;
+}
+.input {
+  width: 50%;
+  height: 25px;
+  margin-top: 10px;
+  font-size: 19px;
+}
+.loginBtn {
+  background: #b1b183;
+  display: flex;
+  margin-left: 44%;
+  margin-top: 10px;
+  width: 68px;
+  height: 26px;
+  font-size: 104%;
+  cursor: pointer;
+  border-radius: 11.5px;
+}
+.logOutBtn {
+  background: ivory;
+  width: 118px;
+  cursor: pointer;
+  height: 32px;
+  font-size: 20px;
+}
+.logOutBtnParent {
+  text-align: right;
+  top: -39px;
+  position: relative;
+}
+.loginPage {
+  margin-top: 20%;
+}
+.logoutBtnContainer {
+  position: relative;
+  top: 40px;
+}
+.imageParent {
+  /* margin-left: 67%; */
+  width: 70%;
+  text-align: right;
+}
